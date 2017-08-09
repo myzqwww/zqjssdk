@@ -1,0 +1,32 @@
+{
+    "name": "zhaoquan/wx",
+    "description": "wechat procedure",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "赵全",
+            "email": "2782849498@qq.com"
+        }
+    ],
+    "require": {
+        "gregwar/captcha": "1.*",
+        "curl/curl": "^1.7"
+    },
+    "autoload":{
+        "files":[
+            "system/helper.php",
+            "houdunwang/core/functions.php"
+        ],
+        "psr-4":{
+            "houdunwang\\":"houdunwang\\",
+            "app\\":"app\\"
+        }
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    }
+}
